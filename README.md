@@ -22,7 +22,7 @@ A comprehensive MERN stack application for real-time disaster response coordinat
 - **AI Services**: Google Gemini API
 - **External APIs**: Google Maps Geocoding, Mock Social Media APIs
 - **Deployment**: Render (Backend), Vercel (Frontend)
-
+ 
 ## 📋 Prerequisites
 
 - Node.js (v16+)
