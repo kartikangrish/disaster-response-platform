@@ -24,7 +24,8 @@ function App() {
 
   useEffect(() => {
     // Initialize Socket.IO connection
-    const newSocket = io('http://localhost:5000', {
+    const backendUrl = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+    const newSocket = io(backendUrl, {
       transports: ['websocket', 'polling']
     });
 

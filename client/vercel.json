@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "framework": "create-react-app",
+  "rewrites": [
+    {
+      "source": "/api/(.*)",
+      "destination": "https://disaster-response-backend.onrender.com/api/$1"
+    }
+  ],
+  "env": {
+    "REACT_APP_API_URL": "https://disaster-response-backend.onrender.com"
+  }
+} 
