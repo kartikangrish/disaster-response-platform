@@ -3,7 +3,7 @@ services:
     name: disaster-response-backend
     runtime: node
     buildCommand: cd server && npm install
-    startCommand: cd server && node index.js
+    startCommand: node server/index.js
     envVars:
       - key: NODE_ENV
         value: production
